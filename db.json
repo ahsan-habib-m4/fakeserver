@@ -22,8 +22,8 @@
              "sub":null,
              "priority":1,
              "listOrder":"asc",
-             component: ListPage,
-             route: PrivateRoute
+             component: "ListPage",
+             route: "PrivateRoute"
           },
           {
              "name":"Connecting",
@@ -36,8 +36,8 @@
              "sub":null,
              "priority":2,
              "listOrder":"asc",
-             component: ListPage,
-             route: PrivateRoute
+             component: "ListPage",
+             route: "PrivateRoute"
           },
           {
              "name":"Inbound",
@@ -50,8 +50,8 @@
              "sub":null,
              "priority":3,
              "listOrder":"asc",
-             component: ListPage,
-             route: PrivateRoute
+             component: "ListPage",
+             route: "PrivateRoute"
           },
           {
              "name":"Flights path",
@@ -64,8 +64,8 @@
              "sub":null,
              "priority":4,
              "listOrder":"asc",
-             component: ListPage,
-             route: PrivateRoute
+             component: "ListPage",
+             route: "PrivateRoute"
           }
        ]       
     }
