@@ -1,28 +1,18 @@
 {
 "menu" : [
     {
-       "menu":"Accommodation",
-       "list":"/eoffice-tools/launcher/data/1",
-       "newUrl":"/eoffice-data/component/ACC",
-       "detail":"/eoffice-data/component/ACC?code=",
-       "logo":"fa-bed",
-       "note":"Accommodation Products",
-       "privilege":"6",
-       "sub":null,
-       "priority":1,
-       "listOrder":"asc"
-    },
-    {
-       "menu":"Transports",
+       "name":"Transports",
        "list":null,
        "newUrl":"",
-       "detail":"",
+       "detail":"/eoffice-data",
        "logo":"fa-plane",
        "note":"Transport Products",
        "privilege":"8",
-       "sub":[
+       "priority":2,
+       "listOrder":"",
+       "children":[
           {
-             "menu":"Outbound",
+             "name":"Outbound",
              "list":"/eoffice-tools/launcher/data/3",
              "newUrl":"/eoffice-data/component/OUT",
              "detail":"/eoffice-data/component/OUT/",
@@ -31,10 +21,12 @@
              "privilege":"0",
              "sub":null,
              "priority":1,
-             "listOrder":"asc"
+             "listOrder":"asc",
+             component: ListPage,
+             route: PrivateRoute
           },
           {
-             "menu":"Connecting",
+             "name":"Connecting",
              "list":"/eoffice-tools/launcher/data/4",
              "newUrl":"/eoffice-data/component/CON",
              "detail":"/eoffice-data/component/CON/",
@@ -43,10 +35,12 @@
              "privilege":"0",
              "sub":null,
              "priority":2,
-             "listOrder":"asc"
+             "listOrder":"asc",
+             component: ListPage,
+             route: PrivateRoute
           },
           {
-             "menu":"Inbound",
+             "name":"Inbound",
              "list":"/eoffice-tools/launcher/data/5",
              "newUrl":"/eoffice-data/component/INB",
              "detail":"/eoffice-data/component/INB/",
@@ -55,10 +49,12 @@
              "privilege":"0",
              "sub":null,
              "priority":3,
-             "listOrder":"asc"
+             "listOrder":"asc",
+             component: ListPage,
+             route: PrivateRoute
           },
           {
-             "menu":"Flights path",
+             "name":"Flights path",
              "list":"/eoffice-tools/launcher/data/6",
              "newUrl":"/eoffice-data/data/flightpath",
              "detail":"/eoffice-data/data/flightpath/",
@@ -67,11 +63,11 @@
              "privilege":"0",
              "sub":null,
              "priority":4,
-             "listOrder":"asc"
+             "listOrder":"asc",
+             component: ListPage,
+             route: PrivateRoute
           }
-       ],
-       "priority":2,
-       "listOrder":""
+       ]       
     }
   ]
 }
