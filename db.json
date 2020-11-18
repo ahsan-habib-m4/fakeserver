@@ -1,73 +1,15 @@
 [{
-"menu" : [
-    {
-       "name":"Transports",
-       "list":null,
-       "newUrl":"",
-       "detail":"/eoffice-data",
-       "logo":"fa-plane",
-       "note":"Transport Products",
-       "privilege":"8",
-       "priority":2,
-       "listOrder":"",
-       "children":[
-          {
-             "name":"Outbound",
-             "list":"/eoffice-tools/launcher/data/3",
-             "newUrl":"/eoffice-data/component/OUT",
-             "detail":"/eoffice-data/component/OUT/",
-             "logo":"fa-plane",
-             "note":"Outbound Transports",
-             "privilege":"0",
-             "sub":null,
-             "priority":1,
-             "listOrder":"asc",
-             "component": "ListPage",
-             "route": "PrivateRoute"
-          },
-          {
-             "name":"Connecting",
-             "list":"/eoffice-tools/launcher/data/4",
-             "newUrl":"/eoffice-data/component/CON",
-             "detail":"/eoffice-data/component/CON/",
-             "logo":"icon-1484337851_return",
-             "note":"Connecting Transports",
-             "privilege":"0",
-             "sub":null,
-             "priority":2,
-             "listOrder":"asc",
-             "component": "ListPage",
-             "route": "PrivateRoute"
-          },
-          {
-             "name":"Inbound",
-             "list":"/eoffice-tools/launcher/data/5",
-             "newUrl":"/eoffice-data/component/INB",
-             "detail":"/eoffice-data/component/INB/",
-             "logo":"icon-inbound",
-             "note":"Inbound Transports",
-             "privilege":"0",
-             "sub":null,
-             "priority":3,
-             "listOrder":"asc",
-             "component": "ListPage",
-             "route": "PrivateRoute"
-          },
-          {
-             "name":"Flights path",
-             "list":"/eoffice-tools/launcher/data/6",
-             "newUrl":"/eoffice-data/data/flightpath",
-             "detail":"/eoffice-data/data/flightpath/",
-             "logo":"fa-road",
-             "note":"Flights path",
-             "privilege":"0",
-             "sub":null,
-             "priority":4,
-             "listOrder":"asc",
-             "component": "ListPage",
-             "route": "PrivateRoute"
-          }
-       ]       
-    }
-  ]
-}]
+            "path": "/pages",
+            "name": "Pages",
+            "icon": "uil-copy-alt",
+            "header": "Custom",
+            "children": [
+                {
+                    "path": "/pages/starter",
+                    "name": "Starter",
+                    "component": "Starter",
+                    "route": "PrivateRoute"
+                }
+               
+            ]
+         }]
